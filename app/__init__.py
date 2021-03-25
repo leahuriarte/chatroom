@@ -10,11 +10,14 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 database_url = os.environ.get('DATABASE_URL', None)
 
-if database_url:
-    app.config['SQLALCHEMY_DATABASE_URI'] = database_url
-else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
-        os.path.join(basedir, '../app.db')
+# if database_url:
+#     app.config['SQLALCHEMY_DATABASE_URI'] = database_url
+# else:
+#     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
+#         os.path.join(basedir, '../app.db')
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
+    os.path.join(basedir, '../app.db')
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

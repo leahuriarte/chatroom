@@ -36,10 +36,10 @@
 }
 
 .hero-under-banner {
-  background-color: #f7f7f7;
+  background-color: #3e1290;
 
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: Cormorant;
   font-size: 10px;
   line-height: 18px;
   font-weight: 400;
@@ -59,8 +59,8 @@
   margin-top: 50px;
   margin-bottom: 100px;
 
-  text-align: center;
-  font-family: Montserrat,
+  text-align: left;
+  font-family: Cormorant,
     sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -74,7 +74,8 @@
 }
 
 .section-header {
-  font-family: Oswald, sans-serif;
+  color: #3e1290; 
+  font-family: Cormorant, serif;
   font-size: 22px;
   line-height: 24px;
   font-weight: 400;
@@ -88,9 +89,8 @@
 }
 
 .section-content-header {
-  font-family: Oswald,
-    sans-serif;
-  color: #353538;
+  font-family: Cormorant, serif;
+  color: #3e1290;
   font-size: 18px;
   line-height: 20px;
   font-style: normal;
@@ -100,8 +100,8 @@
 
 .time-span {
   margin-top: 3px;
-
-  color: #8b8b8b;
+  font-family: Cabin, sans-serif;
+  color: #3e1290;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 2px;

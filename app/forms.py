@@ -4,4 +4,4 @@ from wtforms.validators import DataRequired
 
 class ChatroomForm(FlaskForm):
     chatroom_name = StringField('Chatroom Name', validators=[DataRequired()])
-    submit = SubmitField('Enter Chanel')
+    submit = SubmitField('Enter Channel')

@@ -95,6 +95,8 @@ class Chat(db.Model):
 
     # Fill in your model here
     id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(64))
+    hash_key = db.Column(db.String(10),index=True)
 
     # This represents the other side of the many-to-one relationship
     # This is not defined in the database, so don't worry about this
