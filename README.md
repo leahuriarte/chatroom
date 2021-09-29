@@ -1,27 +1,4 @@
-# Elite Final Project: Your Own Site
 
-## Intro
-This project will be your final product from this course. Feel free to reupload this directory as your own github repo after we are done.
-
-We have provided a starter personal portfolio site for you. It includes:
-* A hero section
-* A sub banner section
-* Text blurb
-* Project descriptions
-* Interests (with hover overlays)
-* Footer with contact info
-
-These are meant to be starters and examples for your own site. Add in your own content, reorder, restructure. Feel free to customize this as much as you want.
-
-Also, the we have provided the framework for a working chat app. This includes:
-* Create Chatroom Form
-* Sign in Form
-* Chatroom Page
-* Supporting backend components
-
-As always, feel free to reach out to me if you run into issues, or if there is something you want to implement, but don't know where to get started. (I always recommend looking at other sites for inspiration).
-
-Even after this course is over, feel free to contact me for any help web dev related. I'll always find time to help you guys out. ( kevin.koh.dev@gmail.com )
 
 
 ## Chat App Functional Doc
